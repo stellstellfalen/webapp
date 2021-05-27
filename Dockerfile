@@ -1,6 +1,6 @@
 FROM ruby:2.5
 
-WORKDIR /src
+WORKDIR /app
 RUN bundle install
 RUN bundle exec rackup
 
